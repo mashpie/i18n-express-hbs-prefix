@@ -1,0 +1,22 @@
+<h1>{{__ "Welcome home!" }}</h1>
+
+<p>{{__ "below you'll find some data:" }}</p>
+
+<ul>
+    {{#each features }}
+    <li>
+        {{#if this.title}}
+            <h2>{{@root.__ this.title}}</h2>
+        {{/if}}
+        <p>{{@root.__ this.description}}</p>
+    </li>
+    {{/each }}
+</ul>
+
+<p>{{__ "works within partials too:" }}</p>
+
+{{> featureList}}
+
+<div>
+    <a href="/en">EN</a> | <a href="/nl">NL</a>
+</div>

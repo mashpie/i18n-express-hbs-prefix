@@ -1,0 +1,21 @@
+{
+  "name": "i18n-express-hbs-prefix",
+  "version": "1.0.0",
+  "description": "i18n demo - express with handlebars (hbs) & prefixed routes",
+  "main": "app.js",
+  "scripts": {
+    "dev": "DEBUG='i18n:*' nodemon -e js -w"
+  },
+  "keywords": ["i18n", "express", "handlebars"],
+  "author": "Marcus Spiegel <spiegel@uscreen.de>",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-handlebars": "^5.1.0",
+    "i18n": "^0.13.2"
+  },
+  "devDependencies": {
+    "@uscreen.de/eslint-config-prettystandard-node": "^0.1.0",
+    "nodemon": "^2.0.4"
+  }
+}
