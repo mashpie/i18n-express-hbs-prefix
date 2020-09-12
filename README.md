@@ -1,5 +1,7 @@
 # i18n-express-hbs-prefix
 
+[![Known Vulnerabilities](https://snyk.io/test/github/mashpie/i18n-express-hbs-prefix/badge.svg?targetFile=package.json)](https://snyk.io/test/github/mashpie/i18n-express-hbs-prefix?targetFile=package.json)
+
 > i18n demo - express with handlebars (hbs) &amp; prefixed routes
 
 ## Install
