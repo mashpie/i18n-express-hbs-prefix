@@ -16,6 +16,6 @@
   },
   "devDependencies": {
     "@uscreen.de/eslint-config-prettystandard-node": "^0.1.0",
-    "nodemon": "^2.0.4"
+    "nodemon": "^2.0.17"
   }
 }
